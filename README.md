@@ -11,7 +11,7 @@ npm install firebase
 
   npx expo install firebase react-native-paper react-native-screens react-native-safe-area-context
   
-3. Configurar Firebase
+2. Configurar Firebase
 Acesse o console do Firebase
 
 Crie um novo projeto
