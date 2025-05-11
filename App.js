@@ -21,6 +21,10 @@ export default function App() {
       });
   };
 
+  const handleLogout = () => {
+    firebase.auth().signOut();
+  };
+
   if (!user) {
     return (
       <View style={styles.container}>
@@ -46,6 +50,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hello World</Text>
+      <Button title="Sair" onPress={handleLogout} />
     </View>
   );
 }
